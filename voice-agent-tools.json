@@ -62,5 +62,57 @@
                 ]
             }
         }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "checkAvailability",
+            "description": "Checks available appointment slots for a given date",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "date": {
+                        "type": "string",
+                        "description": "Date to check availability (YYYY-MM-DD)"
+                    },
+                    "appointmentType": {
+                        "type": "string",
+                        "description": "Type of appointment to check duration"
+                    }
+                },
+                "required": [
+                    "date"
+                ]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "transferCall",
+            "description": "Transfers the call to appropriate department",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "department": {
+                        "type": "string",
+                        "enum": [
+                            "scheduling",
+                            "billing",
+                            "emergency",
+                            "general"
+                        ],
+                        "description": "Department to transfer to"
+                    },
+                    "reason": {
+                        "type": "string",
+                        "description": "Reason for transfer"
+                    }
+                },
+                "required": [
+                    "department"
+                ]
+            }
+        }
     }
 ]

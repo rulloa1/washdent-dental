@@ -46,10 +46,10 @@ We will deploy a custom-trained AI Voice Assistant ("Washington Dental Virtual R
     *   Answering generic questions (Services, Location, Hours).
     *   Handling insurance inquiries (Delta Dental, Cigna, MetLife, etc.).
     *   Emergency triage (directing to emergency line when needed).
-*   **Intelligent Tooling:** Equipped with a `scheduleAppointment` function to structurally capture:
-    *   Patient Name, Phone, & Email
-    *   Appointment Type (Cleaning, Emergency, Root Canal, etc.)
-    *   Insurance Provider & New Patient Status
+*   **Intelligent Tooling:** Equipped with custom functions to manage the schedule:
+    *   `checkAvailability`: Real-time lookup of open slots for specific dates.
+    *   `scheduleAppointment`: Structurally captures Patient Name, Phone, Email, Appointment Type, & Insurance.
+    *   `transferCall`: Seamlessly routes calls to Billing, Emergency, or General departments when special handling is required.
 *   **Personality:** Warm, empathetic, and professional.
 *   **Availability:** 24/7/365 with <1 second response time.
 *   **Compliance:** Fully HIPAA-compliant conversational guidelines.
