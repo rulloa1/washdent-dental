@@ -1,6 +1,6 @@
 # Website Development Proposal
 **Prepared for:** Washington Dental
-**Prepared by:** [Your Name / Agency Name]
+**Prepared by:** [Rory Ulloa / RoysCompany.com]
 **Date:** December 27, 2025
 
 ---
@@ -9,12 +9,16 @@
 
 Washington Dental requires a modern, responsive, and patient-centric website to strengthen its implementation of a new digital strategy. This proposal outlines the development of a high-performance web application designed to attract new patients, streamline appointment bookings, and showcase your dental services with a premium aesthetic.
 
+### Design Sneak Peek
+![Website Design Sneak Peek](proposal-assets/sneakpeek.png)
+
 ## Project Objectives
 
 1.  **Modernize Online Presence:** Create a visually stunning, professional design that instills trust and reflects the quality of care provided.
 2.  **Mobile-First Responsiveness:** Ensure the site performs flawlessly on all devices (mobile phones, tablets, and desktops).
 3.  **Search Engine Optimization (SEO):** Implement technical SEO best practices to improve local search visibility for terms like "Dentist near me" and specific dental services.
 4.  **Performance & Speed:** Deliver near-instant load times to reduce bounce rates and improve user experience.
+5.  **24/7 Patient Availability:** Implement an intelligent voice agent to handle after-hours inquiries and secure appointments around the clock.
 
 ## Scope of Work
 
@@ -27,7 +31,8 @@ Washington Dental requires a modern, responsive, and patient-centric website to 
 *   **Framework:** Next.js (React) for server-side rendering, speed, and SEO advantages.
 *   **Styling:** Tailwind CSS for a custom, unique design system without bloat.
 *   **Content Management:** Easy-to-update text and images.
-*   **Contact Integration:** Functional contact forms and integration with booking systems (if applicable).
+*   **Contact Integration:** Functional contact forms and integration with booking systems.
+*   **Voice Agent Integration:** Deployment of an AI-driven concierge to answer calls, handle FAQs, and book appointments directly into your calendar, ensuring no missed opportunities after hours.
 
 ### 3. Key Pages
 *   **Home/Landing Page:** Hero section with value proposition, services overview, and testimonials.
@@ -45,6 +50,7 @@ Washington Dental requires a modern, responsive, and patient-centric website to 
 ## Investment
 
 *   **Design & Development:** $5,000
+*   **AI Voice Agent Setup:** $2,500
 *   **Hosting & Maintenance:** $150 / month
 
 ## Next Steps
