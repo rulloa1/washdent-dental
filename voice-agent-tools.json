@@ -1,0 +1,66 @@
+[
+    {
+        "type": "function",
+        "function": {
+            "name": "scheduleAppointment",
+            "description": "Books a dental appointment after collecting all necessary information",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "patientName": {
+                        "type": "string",
+                        "description": "Full name of the patient"
+                    },
+                    "phoneNumber": {
+                        "type": "string",
+                        "description": "Patient's phone number"
+                    },
+                    "email": {
+                        "type": "string",
+                        "description": "Patient's email address"
+                    },
+                    "appointmentType": {
+                        "type": "string",
+                        "enum": [
+                            "cleaning",
+                            "consultation",
+                            "filling",
+                            "crown",
+                            "root_canal",
+                            "emergency",
+                            "cosmetic",
+                            "other"
+                        ],
+                        "description": "Type of dental appointment"
+                    },
+                    "preferredDate": {
+                        "type": "string",
+                        "description": "Patient's preferred appointment date"
+                    },
+                    "preferredTime": {
+                        "type": "string",
+                        "description": "Patient's preferred appointment time"
+                    },
+                    "isNewPatient": {
+                        "type": "boolean",
+                        "description": "Whether this is a new patient"
+                    },
+                    "insuranceProvider": {
+                        "type": "string",
+                        "description": "Patient's dental insurance provider if applicable"
+                    },
+                    "notes": {
+                        "type": "string",
+                        "description": "Any additional notes or special requests"
+                    }
+                },
+                "required": [
+                    "patientName",
+                    "phoneNumber",
+                    "appointmentType",
+                    "isNewPatient"
+                ]
+            }
+        }
+    }
+]

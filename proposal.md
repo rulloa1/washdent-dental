@@ -10,7 +10,10 @@
 Washington Dental requires a modern, responsive, and patient-centric website to strengthen its implementation of a new digital strategy. This proposal outlines the development of a high-performance web application designed to attract new patients, streamline appointment bookings, and showcase your dental services with a premium aesthetic.
 
 ### Design Sneak Peek
-![Website Design Sneak Peek](proposal-assets/sneakpeek.png)
+![New Design Concept](proposal-assets/sneakpeek.png)
+
+### Alternative Layout / Reference
+![Washington Dental Preview](proposal-assets/washington-dental-preview.png)
 
 ## Project Objectives
 
@@ -32,9 +35,26 @@ Washington Dental requires a modern, responsive, and patient-centric website to 
 *   **Styling:** Tailwind CSS for a custom, unique design system without bloat.
 *   **Content Management:** Easy-to-update text and images.
 *   **Contact Integration:** Functional contact forms and integration with booking systems.
-*   **Voice Agent Integration:** Deployment of an AI-driven concierge to answer calls, handle FAQs, and book appointments directly into your calendar, ensuring no missed opportunities after hours.
+*   **Voice Agent Integration:** deployment of an AI-driven concierge to answer calls, handle FAQs, and book appointments.
 
-### 3. Key Pages
+### 4. Voice Agent Specification
+We will deploy a custom-trained AI Voice Assistant ("Washington Dental Virtual Receptionist") configured with the following capabilities:
+
+*   **Technology Stack:** Powered by **OpenAI GPT-4 Turbo** for intelligence and **ElevenLabs** for hyper-realistic voice synthesis.
+*   **Primary Duties:**
+    *   Scheduling appointments & collecting patient info.
+    *   Answering generic questions (Services, Location, Hours).
+    *   Handling insurance inquiries (Delta Dental, Cigna, MetLife, etc.).
+    *   Emergency triage (directing to emergency line when needed).
+*   **Intelligent Tooling:** Equipped with a `scheduleAppointment` function to structurally capture:
+    *   Patient Name, Phone, & Email
+    *   Appointment Type (Cleaning, Emergency, Root Canal, etc.)
+    *   Insurance Provider & New Patient Status
+*   **Personality:** Warm, empathetic, and professional.
+*   **Availability:** 24/7/365 with <1 second response time.
+*   **Compliance:** Fully HIPAA-compliant conversational guidelines.
+
+### 5. Key Pages
 *   **Home/Landing Page:** Hero section with value proposition, services overview, and testimonials.
 *   **About Us:** Doctor profiles, clinic history, and philosophy.
 *   **Services:** Detailed descriptions of dental procedures (Cosmetic, General, Orthodontics, etc.).
