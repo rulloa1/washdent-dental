@@ -44,8 +44,8 @@ Washington Dental requires a modern, responsive, and patient-centric website to 
 
 ## Investment
 
-*   **Design & Development:** $ [Enter Amount]
-*   **Hosting & Maintenance:** $ [Enter Amount] / month
+*   **Design & Development:** $5,000
+*   **Hosting & Maintenance:** $150 / month
 
 ## Next Steps
 
