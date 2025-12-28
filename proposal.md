@@ -9,11 +9,14 @@
 
 Washington Dental requires a modern, responsive, and patient-centric website to strengthen its implementation of a new digital strategy. This proposal outlines the development of a high-performance web application designed to attract new patients, streamline appointment bookings, and showcase your dental services with a premium aesthetic.
 
-### Design Sneak Peek
-![New Design Concept](proposal-assets/sneakpeek.png)
+### Modern Hero Concept
+![Excellent Dental Services](proposal-assets/washington-dental-hero-blue.png)
 
 ### Alternative Layout / Reference
 ![Washington Dental Preview](proposal-assets/washington-dental-preview.png)
+
+### Dark Mode Concept
+![Washington Dental Dark Mode](proposal-assets/washington-dental-dark.png)
 
 ## Project Objectives
 
@@ -26,7 +29,7 @@ Washington Dental requires a modern, responsive, and patient-centric website to 
 ## Scope of Work
 
 ### 1. Design & User Experience (UX)
-*   **Visual Identity:** Implementation of a clean, modern aesthetic (referencing the "Luminate" design style).
+*   **Visual Identity:** Implementation of a clean, modern aesthetic (referencing the Washington Dental brand identity).
 *   **Navigation:** Intuitive menu structure for easy access to "Services," "About Us," and "Contact" information.
 *   **Call-to-Action (CTA):** Strategically placed "Book Appointment" buttons to drive conversions.
 
@@ -69,9 +72,11 @@ We will deploy a custom-trained AI Voice Assistant ("Washington Dental Virtual R
 
 ## Investment
 
-*   **Design & Development:** $5,000
+*   **Design & Development:** ~~$5,000~~ **$4,500**
 *   **AI Voice Agent Setup:** $2,500
 *   **Hosting & Maintenance:** $150 / month
+
+> **Note:** A 10% courtesy discount has been applied to the design & development fee as a token of gratitude for the excellent dental care I've received. Thank you for your great work!
 
 ## Next Steps
 
