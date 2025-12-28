@@ -1,6 +1,7 @@
 import Navigation from './components/Navigation';
 import Hero from './components/Hero';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Home() {
   const services = [
@@ -38,11 +39,15 @@ export default function Home() {
               </Link>
             </div>
 
-            <div className="grid grid-cols-2 gap-4">
-              <div className="aspect-[3/4] rounded-3xl bg-gradient-to-br from-medium-gray to-dark-gray border border-white/5"></div>
-              <div className="aspect-[3/4] rounded-3xl bg-gradient-to-br from-teal/20 to-dark-gray border border-white/5 mt-8"></div>
-              <div className="aspect-[3/4] rounded-3xl bg-gradient-to-br from-orange/20 to-dark-gray border border-white/5"></div>
-              <div className="aspect-[3/4] rounded-3xl bg-gradient-to-br from-medium-gray to-dark-gray border border-white/5 mt-8"></div>
+            <div className="relative h-[600px] w-full rounded-3xl overflow-hidden border border-white/5">
+              <Image
+                src="/images/dental-office.png"
+                alt="Modern dental office interior at Washington Dental"
+                fill
+                className="object-cover"
+                priority
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
             </div>
           </div>
         </div>
