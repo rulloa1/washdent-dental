@@ -1,6 +1,6 @@
 # Website Development Proposal
 **Prepared for:** Washington Dental
-**Prepared by:** [Rory Ulloa / RoysCompany.com]
+**Prepared by:** Rory Ulloa | RoysCompany (Email: roryulloa@gmail.com | Phone: 346-298-5038)
 **Date:** December 27, 2025
 
 ---
