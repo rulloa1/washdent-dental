@@ -6,11 +6,11 @@
   --dark-gray: #060709;
   --medium-gray: #1A1A1A;
   --light-gray: #999999;
-  --pink: #FAC3FF;
-  --red-accent: #FF8383;
+  --teal: #0d9488;
+  --orange: #f97316;
   --white: #FFFFFF;
   --off-white: #F5F5F5;
-  
+
   --background: var(--black);
   --foreground: var(--white);
 }
@@ -21,11 +21,11 @@
   --color-dark-gray: var(--dark-gray);
   --color-medium-gray: var(--medium-gray);
   --color-light-gray: var(--light-gray);
-  --color-pink: var(--pink);
-  --color-red-accent: var(--red-accent);
+  --color-teal: var(--teal);
+  --color-orange: var(--orange);
   --color-white: var(--white);
   --color-off-white: var(--off-white);
-  
+
   /* Font families */
   --font-sans: var(--font-inter);
   --font-display: var(--font-inter);
