@@ -10,17 +10,17 @@ export default function Navigation() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-black/90 backdrop-blur-lg border-b border-white/5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
-          <Link 
-            href="/" 
+          <Link
+            href="/"
             className="text-2xl font-bold text-white hover:opacity-80 transition"
           >
-            LUMINATE
-            <span className="text-pink ml-2">DENTAL</span>
+            Washington
+            <span className="text-teal ml-2">Dental</span>
           </Link>
-          
+
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="px-6 py-3 bg-white text-black font-medium rounded-full hover:bg-pink hover:text-black transition-all"
+            className="px-6 py-3 bg-white text-black font-medium rounded-full hover:bg-teal hover:text-black transition-all"
           >
             {isMenuOpen ? 'Close' : 'Menu'}
           </button>
@@ -33,44 +33,44 @@ export default function Navigation() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid md:grid-cols-2 gap-12">
               <div className="space-y-6">
-                <Link 
-                  href="/" 
-                  className="block text-4xl md:text-6xl font-bold text-white hover:text-pink transition"
+                <Link
+                  href="/"
+                  className="block text-4xl md:text-6xl font-bold text-white hover:text-teal transition"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Home
                 </Link>
-                <Link 
-                  href="#services" 
-                  className="block text-4xl md:text-6xl font-bold text-white hover:text-pink transition"
+                <Link
+                  href="#services"
+                  className="block text-4xl md:text-6xl font-bold text-white hover:text-teal transition"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Services
                 </Link>
-                <Link 
-                  href="#about" 
-                  className="block text-4xl md:text-6xl font-bold text-white hover:text-pink transition"
+                <Link
+                  href="#about"
+                  className="block text-4xl md:text-6xl font-bold text-white hover:text-teal transition"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   About
                 </Link>
-                <Link 
-                  href="#contact" 
-                  className="block text-4xl md:text-6xl font-bold text-white hover:text-pink transition"
+                <Link
+                  href="#contact"
+                  className="block text-4xl md:text-6xl font-bold text-white hover:text-teal transition"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Contact
                 </Link>
               </div>
-              
+
               <div className="space-y-6 text-light-gray">
                 <div>
                   <h3 className="text-white font-semibold mb-2">General Contact</h3>
-                  <p>hello@washdentdds.com</p>
+                  <p>roryulloa@gmail.com</p>
                 </div>
                 <div>
                   <h3 className="text-white font-semibold mb-2">Appointments</h3>
-                  <p>office@washdentdds.com</p>
+                  <p>(713) 802-0044</p>
                 </div>
                 <div className="pt-6">
                   <h3 className="text-white font-semibold mb-4">Healthy Teeth, Happy Life</h3>
