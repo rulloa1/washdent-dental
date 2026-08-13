@@ -167,7 +167,7 @@ export default function Home() {
             </p>
           </div>
 
-          <form className="space-y-6">
+          <div className="space-y-6" aria-describedby="appointment-preview-note">
             <div>
               <label className="block text-sm font-medium mb-3">Service Needed?</label>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
@@ -199,13 +199,16 @@ export default function Home() {
               </div>
             </div>
 
-            <button
-              type="submit"
-              className="w-full py-4 bg-white text-black font-semibold rounded-full hover:bg-teal transition-all"
+            <p id="appointment-preview-note" className="text-sm text-light-gray">
+              This preview does not submit appointment or health information online. Please call the office to schedule.
+            </p>
+            <a
+              href="tel:+17138020044"
+              className="block w-full py-4 bg-white text-black font-semibold rounded-full hover:bg-teal transition-all text-center"
             >
-              Send Request
-            </button>
-          </form>
+              Call (713) 802-0044 to Schedule
+            </a>
+          </div>
         </div>
       </section>
 
